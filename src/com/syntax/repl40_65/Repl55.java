@@ -2,7 +2,7 @@ package com.syntax.repl40_65;
 
 public class Repl55 {
 	public static void main(String[] args) {
-		for (int i = 10; i >= 2; i -=2) {
+		for (int i = 10; i >= 2; i -= 2) {
 			System.out.println(i);
 		}
 	}
