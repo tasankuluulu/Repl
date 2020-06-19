@@ -10,7 +10,6 @@ public class Repl65 {
 		try {
 
 			int x = inp.nextInt();
-			// write your code below
 			if (x > 0) {
 				for (int i = x - 1; i >= 0; i--) {
 					System.out.printf("%d ", i);
