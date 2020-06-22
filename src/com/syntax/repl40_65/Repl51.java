@@ -6,8 +6,7 @@ public class Repl51 {
 		do {
 			System.out.println(num);
 			num++;
-		}
-		while (num <= 19);
+		} while (num <= 19);
 	}
 
 }
