@@ -8,8 +8,8 @@ public class Repl85 {
 				{1,-2,3,-4}
 			};
 		int sum = 0;
-		for (int i = 2; i < a.length; i += 2) {
-			for (int j = 2; j < a[i].length; j += 2) {
+		for (int i = 0; i < a.length; i += 2) {
+			for (int j = 0; j < a[i].length; j += 2) {
 				sum += a[i][j];
 			}
 		}
