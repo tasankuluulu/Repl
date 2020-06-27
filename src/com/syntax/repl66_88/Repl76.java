@@ -1,4 +1,4 @@
-package com.syntax.repl66_85;
+package com.syntax.repl66_88;
 
 import java.util.Scanner;
 

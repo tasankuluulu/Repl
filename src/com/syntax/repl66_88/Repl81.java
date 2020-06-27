@@ -1,4 +1,4 @@
-package com.syntax.repl66_85;
+package com.syntax.repl66_88;
 
 public class Repl81 {
 	public static void main(String[] args) {
