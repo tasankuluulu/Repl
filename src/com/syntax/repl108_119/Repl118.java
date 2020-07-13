@@ -2,18 +2,18 @@ package com.syntax.repl108_119;
 
 public class Repl118 {
 
-	public static String spaceOut(String str) {
-		char[] array = str.toCharArray();
-		String newStr = "";
-		for (char letter : array) {
-			newStr += letter + " ";
+	public String spaceOut(String str) {
+		String word = "";
+		for (int i = 0; i < str.length(); i++) {
+			word += str.charAt(i) + " ";
 		}
-		return newStr;
+		return word;
 	}
-
+	
 	public static void main(String[] args) {
-		System.out.println(spaceOut("hello"));
-		System.out.println(spaceOut("technology"));
+		Repl118 obj = new Repl118();
+		System.out.println(obj.spaceOut("hello"));
+		System.out.println(obj.spaceOut("technology"));
 	}
 
 }
