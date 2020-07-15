@@ -17,7 +17,7 @@ public class Repl132 {
 	static int[][] reduce10(int[][] array) {
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {
-				array[i][j] = array[i][j] - 10;
+				array[i][j] -= 10;
 			}
 		}
 		return array;
