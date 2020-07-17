@@ -1,6 +1,6 @@
 package com.syntax.repl120_141;
 
-public class Repl138 {
+class Main {
 	private static String printPrivate() {
 		return "private";
 	}
@@ -19,13 +19,13 @@ public class Repl138 {
 
 }
 
-class Main {
+public class Repl138 {
 	public static void main(String[] args) {
 
 		// Repl138.printPrivate();
-		Repl138.printDefault();
-		Repl138.printProtected();
-		Repl138.printPublic();
+		System.out.println(Main.printDefault());
+		System.out.println(Main.printProtected());
+		System.out.println(Main.printPublic());
 	}
 }
 
