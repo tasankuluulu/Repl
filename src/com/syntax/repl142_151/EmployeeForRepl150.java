@@ -8,7 +8,7 @@ public class EmployeeForRepl150 extends Person {
 		this.salary = salary;
 	}
 
-	void print() {
+	public void print() {
 		System.out.printf("%s %s %d %d%n", name, lastName, age, salary);
 	}
 

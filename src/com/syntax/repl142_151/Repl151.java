@@ -2,7 +2,7 @@ package com.syntax.repl142_151;
 
 public class Repl151 extends Method {
 	static int sum(int[][] array) {
-		
+
 		int sum = 0;
 		for (int i = 0; i < array.length; i++) {
 			for (int j = 0; j < array[i].length; j++) {

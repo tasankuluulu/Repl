@@ -2,10 +2,13 @@ package com.syntax.repl142_151;
 
 public class Repl150 {
 	public static void main(String[] args) {
-		Person[] array = {new EmployeeForRepl150("Joe", "Smith", 35, 35000), new Student(name, lastName, age, salary, grade)
-	}
-	
+		Person[] array = { new EmployeeForRepl150("Joe", "Smith", 35, 35000),
+				new Student("Adam", "Smith", 15, 35000, 10), new Retiree("Frank", "Smith", 15, 35000, 10, "tour") };
 
+		for (int i = 0; i < array.length; i++) {
+			array[i].print();
+		}
+	}
 }
 
 //1. Create four classes (Person, Employee, Student, Retiree)

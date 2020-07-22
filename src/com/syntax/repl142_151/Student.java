@@ -8,7 +8,7 @@ public class Student extends EmployeeForRepl150 {
 		this.grade = grade;
 	}
 	
-	void print() {
+	public void print() {
 		System.out.printf("%s %s %d %d%n", name, lastName, age, grade);
 	}
 }

@@ -11,7 +11,7 @@ public class Person {
 	}
 	
 	
-	void print() {
+	public void print() {
 		System.out.printf("%s %s %d %s%n", name, lastName, age);
 	}
 	

@@ -8,7 +8,7 @@ public class Retiree extends Student {
 		this.seniorActivity = seniorActivity;
 	}
 
-	void print() {
+	public void print() {
 		System.out.printf("%s %s %d %s%n", name, lastName, age, seniorActivity);
 	}
 
