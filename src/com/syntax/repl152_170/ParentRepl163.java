@@ -4,6 +4,5 @@ public class ParentRepl163 {
 	void method() {
 		System.out.println("Parent method");
 	}
-	
-	
+
 }
