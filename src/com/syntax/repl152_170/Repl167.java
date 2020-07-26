@@ -5,6 +5,8 @@ public class Repl167 {
 	public static void main(String[] args) {
 		final String str = "https://syntaxtechs.com";
 		System.out.println(str);
+		
+		
 	}
 }
 
