@@ -4,9 +4,10 @@ public class Repl119 {
 	public static String censorLetter(String str, char sign) {
 		return str.replace(sign, '*');
 	}
+
 	public static void main(String[] args) {
-		System.out.println(censorLetter("computer science",'e'));
-		System.out.println(censorLetter("trick or treat",'t'));
+		System.out.println(censorLetter("computer science", 'e'));
+		System.out.println(censorLetter("trick or treat", 't'));
 	}
 
 }
