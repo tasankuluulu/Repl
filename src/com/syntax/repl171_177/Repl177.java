@@ -23,22 +23,20 @@ public class Repl177 implements Functions {
 
 	public static void main(String[] args) {
 		double firstNumber = 100, secondNumber = 20;
-		
+
 		Repl177 obj = new Repl177();
-		
+
 		double result = obj.adding(firstNumber, secondNumber);
 		obj.display(result);
 
 		result = obj.substracting(firstNumber, secondNumber);
 		obj.display(result);
-		
+
 		result = obj.multiply(firstNumber, secondNumber);
 		obj.display(result);
-		
+
 		result = obj.dividing(firstNumber, secondNumber);
 		obj.display(result);
-		
-		
 
 	}
 
