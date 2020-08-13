@@ -5,14 +5,14 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class Repl194 {
-	
-	public static boolean isA (String country) {
-		if(country.charAt(0) == 'A') {
+
+	public static boolean isA(String country) {
+		if (country.charAt(0) == 'A') {
 			return true;
 		}
 		return false;
 	}
-	
+
 	public static void main(String[] args) {
 
 		List<String> countries = new LinkedList<>();
@@ -23,11 +23,11 @@ public class Repl194 {
 		countries.add("Pakistan");
 		countries.add("Russia");
 		countries.add("Azerbaijan");
-		
+
 		Iterator<String> country = countries.iterator();
-		while(country.hasNext()) {
+		while (country.hasNext()) {
 			String it = country.next();
-			if(isA(it)) {
+			if (isA(it)) {
 				country.remove();
 			}
 		}
