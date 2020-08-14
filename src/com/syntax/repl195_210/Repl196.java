@@ -10,7 +10,7 @@ public class Repl196 {
 		set.add("second");
 		set.add("third");
 		System.out.println(set);
-		set.removeAll(set);
+		set.clear();
 		System.out.println(set);
 	}
 
